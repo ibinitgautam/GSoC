@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c4ec7d4002.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        body{
+            background-color: black;
+        }
+        .logo, .siri{
+            text-align: center;
+        }
+        .logo{
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 15px;
+        }
+        #apple{
+            transition: 0.3s ease-in-out;
+        }
+        #apple:hover{
+            font-size: 40px;
+            text-shadow: 0 0 20px white;
+        }
+        #apple:active{
+            font-size: 40px;
+            text-shadow: 0 0 20px rgb(253, 3, 170);
+        }
+        .siri{
+            margin-top: 160px;
+        }
+        p{
+            display: inline;
+            color: white;
+            font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
+            transition: 0.3s ease-in-out;
+        }
+
+        p:hover{
+            
+            color: white;
+            font-size: 40px;
+            font-family: 'Open Sans', sans-serif;
+            border-bottom: 2px dotted white;
+            text-shadow: 0 0 20px white;
+        }
+        p:active{
+            color: white;
+            font-size: 40px;
+            font-family: 'Open Sans', sans-serif;
+            border-bottom: 2px solid white;
+            text-shadow: 0 0 20px rgb(255, 0, 157);
+        }
+    </style>
+</head>
+<body>
+    <div class="logo"><i id="apple" class="fab fa-apple" ></i><br>Apple.inc</div>
+    <div class="siri"><p><i class="fas fa-microphone"></i> Hey Siri !</p></div>
+</body>
+</html>
