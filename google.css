@@ -43,7 +43,7 @@ input{
     width: 500px;
     padding: 7px;
     height: 35px;
-    background-color: black;
+    border: 1px solid black;
 }
 i{
     color: blue;
